@@ -1,0 +1,33 @@
+.dashboard {
+    -fx-background-color: linear-gradient(to bottom,
+     white 0%,
+     #E9E9E9 5%,
+     #999999 50%,
+     #E9E9E9 95%,
+     white 100%);
+     -fx-border-color: #E8E8E8;
+     -fx-border-width: 2;
+}
+
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-pref-width:40;
+    -fx-pref-height:30;
+    -fx-cursor:hand;
+}
+.refresh-button {
+    -fx-background-color: transparent;
+    -fx-pref-width:40;
+    -fx-pref-height:30;
+    -fx-cursor:hand
+}
+
+.close-button {
+    -fx-background-color: transparent;
+}
+
+.topbar {
+    -fx-background-color: linear-gradient(to bottom, #eeeeee, #cdcdcd);
+    -fx-alignment: center;
+    -fx-pref-height:50;
+}
